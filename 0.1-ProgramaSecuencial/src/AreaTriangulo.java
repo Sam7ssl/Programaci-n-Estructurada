@@ -1,3 +1,4 @@
+//Realizar un programa que calcule e imprima el área de un triangulo
 import javax.swing.*;
 
 //Realizar un programa que calcule e imprima el área de un triangulo
@@ -12,6 +13,6 @@ public class AreaTriangulo {
 
     a=(b*h)/2;
 
-    JOptionPane.showMessageDialog(null, "El resultado de la expresion es: " + a);
+    JOptionPane.showMessageDialog(null, "El area del triangulo es: " + a);
     }
 }

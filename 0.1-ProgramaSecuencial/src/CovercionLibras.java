@@ -1,7 +1,6 @@
+//Escribir un programa que convierte los 10, 50 y 100 kilogramos a libras (1 libra = 0,454
+//kg).
 import javax.swing.*;
-
-//Escribir un programa que convierte los 10, 50 y 100 kilogramos a libras (1 libra = 0,454 kg).
-
 public class CovercionLibras {
     public static void main(String[] args) {
         double kg = 0;
@@ -13,8 +12,8 @@ public class CovercionLibras {
             kg = Double.parseDouble(JOptionPane.showInputDialog("Ingresar el peso en kilogramos: "));
             r = (kg / libra);
 
-            JOptionPane.showMessageDialog(null, "El resultado de la conversion es: " + String.format("%.4f", r));
-            //Profe//
+            JOptionPane.showMessageDialog(null,
+                    "El resultado de la conversion es: " + String.format("%.4f", r));
         }
     }
 }

@@ -1,12 +1,10 @@
-import javax.swing.*;
-
 //Realizar un programa que calcule e imprima el sueldo de un empleado, bajo las
 //siguientes características
 //a. Se debe almacenar el nombre del empleado
 //b. Las horas trabajadas que deben ser horas sin parte fraccionaria
 //c. Cuota por hora
 //d. Se debe imprimir el nombre del Trabajador y el Sueldo que va a percibir
-
+import javax.swing.*;
 public class SueldoEmpleado {
     public static void main(String[] args) {
         double ht = 0;
